@@ -2,7 +2,7 @@
     display: flex; /* Use o modelo de layout flexível */
     justify-content: space-between; /* Adiciona espaço entre os elementos */
     align-items: center; /* Alinha os elementos verticalmente no centro */
-    background-color: #1cc769; /* Cor de fundo para visualização */
+    background-color: #35d67d; /* Cor de fundo para visualização */
     padding: 10px; /* Adiciona algum espaçamento interno */
     height: 8vw;
     border-bottom-left-radius: 1vw;
@@ -13,9 +13,34 @@
     list-style: none; /* Remova os marcadores padrão da lista */
     display: flex; /* Exiba os itens da lista em linha (horizontalmente) */
     padding: 0; /* Remova o preenchimento padrão da lista */
-    background-color: aqua;
 }
 
-.Header .Menu .Item-Menu {
+.Header .Logo {
+    width: 7vw;
+    height: 7vw;
+    margin-left: 2vw;
+}
+
+.Header .Menu .itemMenu {
     margin-right: 20px; /* Adicione um espaço entre os itens da lista (opcional) */
-} 
+    font-size: 20px;
+    background-color: #beebd2;
+    padding: 10px;
+    border-radius: 0.5vw;
+}
+
+.Header .Menu .itemMenu:hover{
+    background-color: #44e48c;
+    cursor: pointer; /* Muda o cursor ao passar o mouse por cima */
+}
+
+/* Editando todos os links */ 
+a {
+    text-decoration: none; /* Tira o sublinhado */
+    color: black;
+}
+
+.Header .propsTest {
+    background-color: aqua;
+    margin-right: 2vw;
+}
