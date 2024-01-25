@@ -1,0 +1,9 @@
+1 - Instale o node (o npm e o npx vem junto)
+
+2 - instale o react digitando "npx create-react-app my-app"
+
+3 - isso irá criar a pasta my-app com os arquivos
+
+4 - no diretório do my-app, digite no terminal "npm start"
+
+
