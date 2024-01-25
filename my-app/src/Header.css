@@ -1,0 +1,21 @@
+.Header {
+    display: flex; /* Use o modelo de layout flexível */
+    justify-content: space-between; /* Adiciona espaço entre os elementos */
+    align-items: center; /* Alinha os elementos verticalmente no centro */
+    background-color: #1cc769; /* Cor de fundo para visualização */
+    padding: 10px; /* Adiciona algum espaçamento interno */
+    height: 8vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+  }
+
+.Header .Menu {
+    list-style: none; /* Remova os marcadores padrão da lista */
+    display: flex; /* Exiba os itens da lista em linha (horizontalmente) */
+    padding: 0; /* Remova o preenchimento padrão da lista */
+    background-color: aqua;
+}
+
+.Header .Menu .Item-Menu {
+    margin-right: 20px; /* Adicione um espaço entre os itens da lista (opcional) */
+} 

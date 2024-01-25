@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* Quando importarmos outro componente, o conteúdo do props deve ser passado aqui, pois App é o pai de Header */}
+        <Header teste="teste props"/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Teste de props: {props.texto}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
