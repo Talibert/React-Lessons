@@ -34,10 +34,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": ""
+=======
+  }
+>>>>>>> e6f04c0786b801291adf51b80a5a1aefda5cd3f3
 }

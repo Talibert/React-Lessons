@@ -2,12 +2,20 @@
     display: flex; /* Use o modelo de layout flexível */
     justify-content: space-between; /* Adiciona espaço entre os elementos */
     align-items: center; /* Alinha os elementos verticalmente no centro */
+<<<<<<< HEAD
     background-color: #0c773c; /* Cor de fundo para visualização */
     padding: 10px; /* Adiciona algum espaçamento interno */
     height: 10vw;
     border-bottom-left-radius: 1vw;
     border-bottom-right-radius: 1vw;
     box-shadow: 0.1vw 0.1vw 1vw 0.2vw;
+=======
+    background-color: #35d67d; /* Cor de fundo para visualização */
+    padding: 10px; /* Adiciona algum espaçamento interno */
+    height: 8vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+>>>>>>> e6f04c0786b801291adf51b80a5a1aefda5cd3f3
   }
 
 .Header .Menu {
@@ -28,6 +36,7 @@
     background-color: #beebd2;
     padding: 10px;
     border-radius: 0.5vw;
+<<<<<<< HEAD
     box-shadow: 0.5vw 0.5vw 1vw 0.2vw;
 }
 
@@ -35,6 +44,13 @@
     background-color: #f7faf8a4;
     cursor: pointer; /* Muda o cursor ao passar o mouse por cima */
     box-shadow: 0.5vw 0.5vw 1vw 0.2vw rgba(0, 128, 0, 0.404);
+=======
+}
+
+.Header .Menu .itemMenu:hover{
+    background-color: #44e48c;
+    cursor: pointer; /* Muda o cursor ao passar o mouse por cima */
+>>>>>>> e6f04c0786b801291adf51b80a5a1aefda5cd3f3
 }
 
 /* Editando todos os links */ 
@@ -45,5 +61,9 @@ a {
 
 .Header .propsTest {
     background-color: aqua;
+<<<<<<< HEAD
     margin-right: 1.5vw;
+=======
+    margin-right: 2vw;
+>>>>>>> e6f04c0786b801291adf51b80a5a1aefda5cd3f3
 }
