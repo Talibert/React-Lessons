@@ -1,0 +1,16 @@
+1 - Instale o node (o npm e o npx vem junto)
+
+2 - instale o react digitando "npx create-react-app my-app"
+
+3 - isso irá criar a pasta my-app com os arquivos
+
+4 - no diretório do my-app, digite no terminal "npm start"
+
+5 - Isso irá abrir o app no navegador. Para parar a simulação, digite CTRL+C no terminal
+
+6 - Vá nas extensões e instale a "ES7 React/Redux/GraphQL/...". Essa extensão irá auxiliar no desenvolvimento
+
+7 - Pode apagar o logo que está na pastar src, pode zerar o App.css e aplicar um reset, pode apagar o App.test.js, pode apagar o setupTests.js e pode apagar o reportWebVitals.js
+
+8 - O App.js é um componente. Ele atua como se fosse uma div com conteúdo no HTML. O componente App.js é invocado pelo arquivo index.js e então é renderizado através do método render. A pasta public contem um arquivo index.html que será o arquivo compilado pelo navegador. Lá devemos declarar uma div e atrelar o componente App.js que foi renderizado no arquivo index.js para que a o html entenda. Dessa forma, ao invés de colocarmos o conteúdo da div no arquivo html, iremos colocar no app.js (componente), renderizá-lo pelo index.js e referenciá-lo no index.html
+
