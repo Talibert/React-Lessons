@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Header';
+import StateHooks from  "./StateHooks";
 
 function App(props) {
   return (
@@ -9,6 +10,7 @@ function App(props) {
         <p>
           Teste de props: {props.texto}
         </p>
+        <StateHooks/>
     </div>
   );
 }
