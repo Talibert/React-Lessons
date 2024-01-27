@@ -7,6 +7,7 @@ function StateHooks() {
   // Atribuimos o useState a essas variáveis e indicamos que o valor inicial será zero
   const [count, setCount] = useState(0);
   const [pagUpdate, setUpdate] = useState(0);
+  const [name, setName] = useState("Malu")
 
   // O useEffect aceita dois parâmetros: O que vai acontecer e o quando vai acontencer. Nesse caso, iremos atualizar o título da página do site. Caso o segundo parâmeto esteja em branco, o useEffect será acionado a qualquer renderização do app. Se adicionarmos alguma variável, a chamada de useEffect ocorrerá apenas quando a atualização dessa variável ocorrer.
   useEffect(() => {
@@ -26,6 +27,22 @@ function StateHooks() {
       <button onClick={() => setUpdate(pagUpdate + 1)}>
         Alterações do título
       </button>
+      {/*A partir de agora iremos incluir um bloco de renderização condicional*/}
+      <div>
+        {
+            (name === "Malu")?
+            <div>
+                <p>
+                    O nome da minha cachorrinha é {name}
+                </p>
+            </div>: 
+            <div>
+                <p>
+                    O nome da minha cachorrinha está errado
+                </p>
+            </div>
+        }
+      </div>
     </div>
   );
 }
