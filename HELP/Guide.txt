@@ -14,3 +14,8 @@
 
 8 - O App.js é um componente. Ele atua como se fosse uma div com conteúdo no HTML. O componente App.js é invocado pelo arquivo index.js e então é renderizado através do método render. A pasta public contem um arquivo index.html que será o arquivo compilado pelo navegador. Lá devemos declarar uma div e atrelar o componente App.js que foi renderizado no arquivo index.js para que a o html entenda. Dessa forma, ao invés de colocarmos o conteúdo da div no arquivo html, iremos colocar no app.js (componente), renderizá-lo pelo index.js e referenciá-lo no index.html
 
+9 - Para trabalhar com API, instale o Axios com o comando "npm i axios"
+
+10 - Para criar uma build, digite o comando "npm run build"
+
+11 - Uma pasta Build será criada dentro do diretório do projeto. Essa pasta contém todos os arquivos necessários para que o aplicativo seja executado

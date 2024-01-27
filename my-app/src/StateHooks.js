@@ -7,7 +7,7 @@ function StateHooks() {
   // Atribuimos o useState a essas variáveis e indicamos que o valor inicial será zero
   const [count, setCount] = useState(0);
   const [pagUpdate, setUpdate] = useState(0);
-  const [name, setName] = useState("Malu")
+  const name = "Malu"
 
   // O useEffect aceita dois parâmetros: O que vai acontecer e o quando vai acontencer. Nesse caso, iremos atualizar o título da página do site. Caso o segundo parâmeto esteja em branco, o useEffect será acionado a qualquer renderização do app. Se adicionarmos alguma variável, a chamada de useEffect ocorrerá apenas quando a atualização dessa variável ocorrer.
   useEffect(() => {

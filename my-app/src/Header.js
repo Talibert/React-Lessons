@@ -1,5 +1,6 @@
 import './Header.css';
 import logo from "./images/logo192.png"
+import Clock from "./Clock"
 
 // Declaração do componente Header
 function Header(props) {
@@ -16,7 +17,11 @@ function Header(props) {
                 <li className='itemMenu'>Contact</li>
         </ul>
         {/* Recebendo o props do App*/}
-        <p className="propsTest">{props.teste}</p>
+        <div>
+          <p className="propsTest">{props.teste}</p>
+          <Clock/>
+        </div>
+        
     </div>
   );
 }
